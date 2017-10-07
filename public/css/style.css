@@ -41,7 +41,7 @@ body {
 }
 .people-list ul {
   padding: 15px;
-  height: 855px;
+  height: 617px;
 }
 .people-list ul li {
   padding-bottom: unset;
@@ -94,10 +94,10 @@ body {
   margin-top: 12px;
 }
 .chat .chat-history {
-  padding: 30px 30px 20px;
+  padding: 10px 10px;
   border-bottom: 2px solid white;
   overflow-y: scroll;
-  height: 575px;
+  height: 400px;
 }
 .chat .chat-history .message-data {
   margin-bottom: 15px;
@@ -108,12 +108,12 @@ body {
 }
 .chat .chat-history .message {
   color: white;
-  padding: 18px 20px;
-  line-height: 26px;
+  padding: 0px 10px;
+  line-height: 30px;
   font-size: 16px;
   border-radius: 7px;
-  margin-bottom: 30px;
-  width: 90%;
+  margin-bottom: 5px;
+  width: 80%;
   position: relative;
 }
 .chat .chat-history .message:after {
@@ -140,11 +140,11 @@ body {
   left: 93%;
 }
 .chat .chat-message {
-  padding: 30px;
+  padding: 10px;
   border-top: solid;
 }
 .chat .chat-message textarea {
-  width: 100%;
+  width: 90%;
   border: 1px solid #ccc;;
   padding: 10px 20px;
   font: 14px/22px "Lato", Arial, sans-serif;
@@ -211,7 +211,6 @@ body {
 
 .onlineUsers {
   font-family: fantasy;
-  text-align: center;
   padding: 5px;
   border-bottom: solid indianred;
 }
